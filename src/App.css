@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+}
+
+body {
+  background: #242424;
+  margin: 0;
+  height: 100vh;
+}
+
+.lines {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  font-size: 2rem;
+}
+
+.line {
+  min-width: 4rem;
+  border: solid white 1px;
+  text-align: center;
+  min-height: 4rem;
+}
+
+.input {
+  height: 2rem;
+  min-width: 20rem;
+}
+
+.button {
+  border-radius: 0px !important;
+}
